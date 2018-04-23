@@ -1,0 +1,54 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/hero-bg.png');
+    background-size: cover;
+    position: relative;
+}
+
+.hero__logo-img {
+    width: 273px;
+    height: 273px;
+}
+
+.hero__text {
+    font-size: 49px;
+    color: white;
+    width: 675px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero__code {
+    bottom: -180px;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28), 0 0 3px rgba(0, 0, 0, 0.04);
+
+    .hero__text {
+        color: #938e8e;
+        font-size: 15px;
+    }
+
+    .code__gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .code__btn {
+        background: #227dd3;
+        color: white;
+        font-size: 26px;
+        width: 192px;
+        height: 45px;
+    }
+}

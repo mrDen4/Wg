@@ -1,0 +1,56 @@
+.map {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.map__google {
+    width: 100vw;
+    height: 100vh;
+}
+
+.map__message {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+    opacity: 0.85;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message__item {
+    margin-bottom: 15px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.message__name, .message__email {
+    width: 275px;
+    height: 30px;
+    padding: 10px 20px;
+}
+
+.message__msg {
+    width: 275px;
+    height: 80px;
+    padding: 10px 20px;        
+}
+
+.message__btn {
+    margin-top: 35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #43a06d;
+    color: white;
+    font-size: 2em;
+}

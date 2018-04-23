@@ -1,0 +1,13 @@
+//layout
+@import "./layout/base.scss";
+@import "./layout/adjustment.scss";
+@import "./layout/fonts.scss";
+@import "normalize";
+
+//Sections
+@import "./sections/hero.scss";
+@import "./sections/docs.scss";
+@import "./sections/pad.scss";
+@import "./sections/desc.scss";
+@import "./sections/map.scss";
+@import "./sections/footer.scss";

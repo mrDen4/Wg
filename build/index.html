@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/app.min.css">
+    <title>WD</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="section hero">
+        <div class="container hero-container">
+          <div class="hero__logo"><img class="hero__logo-img" src="./assets/images/logo.png" alt="logo"></div>
+          <div class="hero__text">
+            <p>Be sure you put your feet in the right place</p>
+          </div>
+          <div class="hero__code">
+            <input class="code__input" type="text">
+            <div class="code__gallery"><img class="code__img" src="./assets/images/gallery-1.png" alt="gallery-1"><img class="code__img" src="./assets/images/gallery-2.png" alt="gallery-2"><img class="code__img" src="./assets/images/gallery-3.png" alt="gallery-3"><img class="code__img" src="./assets/images/gallery-4.png" alt="gallery-4"><img class="code__img" src="./assets/images/gallery-5.png" alt="gallery-5"><img class="code__img" src="./assets/images/gallery-6.png" alt="gallery-6"><img class="code__img" src="./assets/images/gallery-7.png" alt="gallery-7"><img class="code__img" src="./assets/images/gallery-8.png" alt="gallery-8"><img class="code__img" src="./assets/images/gallery-9.png" alt="gallery-9"><img class="code__img" src="./assets/images/gallery-10.png" alt="gallery-10"></div>
+            <div class="code__text">
+              <p>This is Photoshop's version  of Lorem Ipsum. </p>
+            </div>
+            <button class="code__btn">Press me</button>
+          </div>
+        </div>
+      </div>
+      <div class="section docs">
+        <div class="container docs-container">
+          <div class="docs__item"><img class="item__img" src="./assets/images/documents.png" alt="documents">
+            <div class="item__content">
+              <h2 class="item__title">Documents</h2>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin
+                <div class="docs__item"></div>
+              </p>
+            </div>
+          </div>
+          <div class="docs__item"><img class="item__img" src="./assets/images/photos.png" alt="photos">
+            <div class="item__content">
+              <h2 class="item__title">Photos</h2>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section pad">
+        <div class="container heading-container"><img class="pad__img" src="./assets/images/pad.png" alt="pad">
+          <div class="pad__content">
+            <div class="content__title">
+              <h2>This is a Heading</h2>
+            </div>
+            <div class="content__text">
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+              <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section desc">
+        <div class="container desc-container">
+          <div class="desc__decor"></div><img class="desc__img" src="./assets/images/desc.png" alt="desc">
+          <div class="desc__content">
+            <h2 class="content__title">This is a Heading</h2>
+            <p class="desc__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            <button class="desc__btn">Download</button>
+          </div>
+        </div>
+      </div>
+      <div class="section map">
+        <div class="map__google" id="map"></div>
+        <div class="map__message">
+          <ul class="message__list">
+            <li class="message__item">
+              <input class="message__name" type="text" placeholder="Name">
+            </li>
+            <li class="message__item">        
+              <input class="message__email" type="text" placeholder="Email address">
+            </li>
+            <li class="message__item">
+              <input class="message__msg" type="text" placeholder="Message">
+            </li>
+          </ul>
+          <button class="message__btn"><i class="fas fa-check"></i></button>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container footer-container">
+          <p class="footer__text"> © Copyright 2013 Css Author, All Rights Reserved. </p>
+        </div>
+      </footer>
+      <script src="./assets/scripts/map.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBU7ivVs8JFRrkng8K8020K-juQstb8xA&amp;callback=initMap" async defer></script>
+    </div>
+  </body>
+</html>

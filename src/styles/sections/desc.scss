@@ -1,0 +1,40 @@
+.desc {
+    background-color: #44a36f;
+    position: relative;
+}
+
+.desc__decor {
+    background: linear-gradient(to bottom right, #5fc18b 50%, #308355 10%, #44a36f 40%);
+    background-size: cover;
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+}
+
+.desc__img {
+    width: 275px;
+    margin-right: 65px;
+}
+
+.desc__content {
+    color: white;
+
+    .content__title {
+        font-size: 39px;
+    }
+
+    .content__text {
+        font-size: 14px;
+    }
+
+    .desc__btn {
+        border: white 4px solid;
+        border-radius: 10px;
+        color: white;
+        width: 200px;
+        height: 60px;
+        font-size: 27px;
+        background: none;
+    }
+}
