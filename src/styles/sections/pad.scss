@@ -6,12 +6,26 @@
 
 .pad__img {
     width: 155px;
+
+    @include phones () {
+        width: 100px;
+    }
 }
 
 .content__title {
     font-size: 39px;
+
+    @include phones () {
+        margin: 10px 0;
+    }
 }
 
 .content__text {
     font-size: 14px;
+
+    @include phones () {
+        .content__text:first-child {
+            margin-top: 0;
+        }
+    }
 }

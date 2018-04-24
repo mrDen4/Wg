@@ -11,8 +11,6 @@
 
 .map__message {
     position: absolute;
-    top: 30%;
-    left: 40%;
     width: 440px;
     height: 440px;
     border-radius: 50%;
@@ -23,6 +21,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include phones () {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 .message__item {
@@ -37,12 +40,26 @@
     width: 275px;
     height: 30px;
     padding: 10px 20px;
+
+    @include phones () {
+        width: 175px;
+        height: 20px;
+        border: #43a06d 1px solid;
+        border-radius: 5px;
+    }
 }
 
 .message__msg {
     width: 275px;
     height: 80px;
-    padding: 10px 20px;        
+    padding: 10px 20px;   
+    
+    @include phones () {
+        width: 175px;
+        height: 70px;
+        border: #43a06d 1px solid;
+        border-radius: 5px;
+    }
 }
 
 .message__btn {
@@ -53,4 +70,8 @@
     background: #43a06d;
     color: white;
     font-size: 2em;
+
+    @include phones () {
+        margin-top: 5px;
+    }
 }

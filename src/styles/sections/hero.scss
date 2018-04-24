@@ -14,13 +14,17 @@
 .hero__text {
     font-size: 49px;
     color: white;
-    width: 675px;
+    max-width: 675px;
     text-transform: uppercase;
     text-align: center;
+
+    @include phones () {
+        font-size: 20px;
+    }
 }
 
 .hero__code {
-    bottom: -180px;
+    bottom: -200px;
     position: absolute;
     width: 360px;
     height: 360px;
@@ -31,6 +35,14 @@
     justify-content: space-around;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28), 0 0 3px rgba(0, 0, 0, 0.04);
+
+    .code__input {
+        width: 80%;
+        height: 10%;
+        border-radius: 5px;
+        border: 1px solid #e5e5e5;
+        padding: 10px 15px;
+    }
 
     .hero__text {
         color: #938e8e;
@@ -50,5 +62,6 @@
         font-size: 26px;
         width: 192px;
         height: 45px;
+        border-radius: 5px;
     }
 }
